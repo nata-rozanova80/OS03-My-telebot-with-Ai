@@ -39,3 +39,5 @@ def echo_all(message):
         bot.reply_to(message, "Произошла ошибка: " + str(e))
 
 bot.polling()
+
+
