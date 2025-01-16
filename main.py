@@ -4,7 +4,7 @@ from openai import OpenAI
 
 # Инициализация клиента API OpenAI с вашим API ключом
 client = OpenAI(
-    api_key="sk-eojihWMYuwlwO4oNjNMX8DbkkkBtLg7I",
+    api_key="лежит в избранном",
     base_url="https://api.proxyapi.ru/openai/v1",
 )
 
@@ -12,7 +12,7 @@ client = OpenAI(
 conversation_history = []
 
 # Инициализация Telegram бота
-bot = telebot.TeleBot("6613597709:AAEKNx2I74OyAL77BQj-_FuA9w6VuzPl120")
+bot = telebot.TeleBot("TOKEN")
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
     # Получение текстового сообщения от пользователя
